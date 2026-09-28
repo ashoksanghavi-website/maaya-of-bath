@@ -20,7 +20,7 @@ export default function ReservationsPage() {
         crumbs={[{ label: "Home", href: "/" }, { label: "Reservations" }]}
       />
 
-      <section className="bg-paper py-16 lg:py-24">
+      <section className="bg-paper py-14 lg:py-20">
         <div className="container-x grid gap-12 lg:grid-cols-[1fr_1.15fr]">
           <div>
             <span className="kicker">

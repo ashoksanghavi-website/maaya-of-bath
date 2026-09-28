@@ -31,7 +31,7 @@ export default function HomePage() {
       <Marquee />
 
       {/* INTRO */}
-      <section className="bg-cream py-20 lg:py-28">
+      <section className="bg-cream py-16 lg:py-20">
         <div className="container-x grid items-center gap-14 lg:grid-cols-2">
           <Reveal className="relative">
             <div className="relative aspect-[5/6] overflow-hidden rounded-[26px] shadow-card">
@@ -87,7 +87,7 @@ export default function HomePage() {
       </section>
 
       {/* FEATURED DISHES */}
-      <section className="bg-paper py-20 lg:py-28">
+      <section className="bg-paper py-16 lg:py-20">
         <div className="container-x">
           <div className="flex flex-col items-start justify-between gap-6 sm:flex-row sm:items-end">
             <SectionHeading
@@ -120,7 +120,7 @@ export default function HomePage() {
       </section>
 
       {/* STREET FOOD BANNER */}
-      <section className="relative overflow-hidden bg-maroon py-20 text-cream lg:py-28">
+      <section className="relative overflow-hidden bg-maroon py-16 text-cream lg:py-20">
         <div className="grain pointer-events-none absolute inset-0 opacity-40" />
         <div className="container-x relative grid items-center gap-14 lg:grid-cols-2">
           <div>
@@ -151,7 +151,7 @@ export default function HomePage() {
       </section>
 
       {/* COCKTAILS */}
-      <section className="bg-cream py-20 lg:py-28">
+      <section className="bg-cream py-16 lg:py-20">
         <div className="container-x grid items-center gap-14 lg:grid-cols-[1fr_1.05fr]">
           <Reveal className="order-2 grid grid-cols-2 gap-4 lg:order-1">
             <div className="relative aspect-[3/4] overflow-hidden rounded-[22px] shadow-card">
@@ -187,7 +187,7 @@ export default function HomePage() {
       </section>
 
       {/* VALUES */}
-      <section className="bg-paper py-20 lg:py-28">
+      <section className="bg-paper py-16 lg:py-20">
         <div className="container-x">
           <SectionHeading
             align="center"
@@ -212,7 +212,7 @@ export default function HomePage() {
       </section>
 
       {/* TESTIMONIALS */}
-      <section className="bg-cream py-20 lg:py-28">
+      <section className="bg-cream py-16 lg:py-20">
         <div className="container-x">
           <SectionHeading
             align="center"
@@ -227,7 +227,7 @@ export default function HomePage() {
       </section>
 
       {/* GALLERY */}
-      <section className="bg-paper py-20 lg:py-28">
+      <section className="bg-paper py-16 lg:py-20">
         <div className="container-x">
           <SectionHeading
             kicker="A Glimpse Inside"

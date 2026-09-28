@@ -27,7 +27,7 @@ export default function ContactPage() {
         crumbs={[{ label: "Home", href: "/" }, { label: "Contact" }]}
       />
 
-      <section className="bg-paper py-16 lg:py-24">
+      <section className="bg-paper py-14 lg:py-20">
         <div className="container-x grid gap-12 lg:grid-cols-[1fr_1.1fr]">
           <div>
             <div className="grid gap-4 sm:grid-cols-2">

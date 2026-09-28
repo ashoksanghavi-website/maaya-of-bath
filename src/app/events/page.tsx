@@ -27,7 +27,7 @@ export default function EventsPage() {
         crumbs={[{ label: "Home", href: "/" }, { label: "Events" }]}
       />
 
-      <section className="bg-paper py-16 lg:py-24">
+      <section className="bg-paper py-14 lg:py-20">
         <div className="container-x">
           <SectionHeading align="center" kicker="Occasions" title="A room made for gathering" />
           <Stagger className="mt-12 grid gap-6 md:grid-cols-3">
@@ -44,7 +44,7 @@ export default function EventsPage() {
         </div>
       </section>
 
-      <section className="bg-cream py-16 lg:py-24">
+      <section className="bg-cream py-14 lg:py-20">
         <div className="container-x grid items-center gap-12 lg:grid-cols-2">
           <Reveal className="relative aspect-[4/3] overflow-hidden rounded-[26px] shadow-card">
             <Image src="/images/ambiance/tapas-bath.webp" alt="Tapas spread for events" fill sizes="(max-width: 1024px) 100vw, 45vw" className="object-cover" />

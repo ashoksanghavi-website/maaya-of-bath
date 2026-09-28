@@ -53,7 +53,7 @@ export default function ConfirmedPage() {
 
   return (
     <div className="bg-paper pt-[84px]">
-      <div className="container-x py-16 lg:py-24">
+      <div className="container-x py-14 lg:py-20">
         <div className="mx-auto max-w-2xl">
           <motion.div
             initial={{ scale: 0, rotate: -20 }}

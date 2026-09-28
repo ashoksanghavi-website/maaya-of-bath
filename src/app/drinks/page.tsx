@@ -28,7 +28,7 @@ export default function DrinksPage() {
 
       <div className="bg-paper">
         {drinkGroups.map((group, idx) => (
-          <section key={group.id} className="border-b border-ink/8 py-16 lg:py-24">
+          <section key={group.id} className="border-b border-ink/8 py-14 lg:py-20">
             <div className="container-x grid items-center gap-12 lg:grid-cols-2">
               <Reveal
                 className={`relative aspect-[4/3] overflow-hidden rounded-[26px] shadow-card ${

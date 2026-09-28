@@ -23,7 +23,7 @@ export default function AboutPage() {
         crumbs={[{ label: "Home", href: "/" }, { label: "About" }]}
       />
 
-      <section className="bg-paper py-16 lg:py-24">
+      <section className="bg-paper py-14 lg:py-20">
         <div className="container-x grid items-center gap-14 lg:grid-cols-2">
           <Reveal className="relative">
             <div className="relative aspect-[4/5] overflow-hidden rounded-[26px] shadow-card">
@@ -47,7 +47,7 @@ export default function AboutPage() {
       </section>
 
       {/* Timeline */}
-      <section className="bg-cream py-16 lg:py-24">
+      <section className="bg-cream py-14 lg:py-20">
         <div className="container-x">
           <SectionHeading align="center" kicker="How It Began" title="The making of Maaya" />
           <div className="mt-14 grid gap-8 md:grid-cols-3">
@@ -65,7 +65,7 @@ export default function AboutPage() {
       </section>
 
       {/* FAQ */}
-      <section className="bg-paper py-16 lg:py-24">
+      <section className="bg-paper py-14 lg:py-20">
         <div className="container-x grid gap-12 lg:grid-cols-[0.9fr_1.1fr]">
           <div>
             <SectionHeading kicker="Good to Know" title="Questions, answered" />
