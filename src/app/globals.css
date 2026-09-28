@@ -52,7 +52,7 @@
   }
 
   .btn {
-    @apply inline-flex items-center justify-center gap-2 rounded-full px-7 py-3.5 text-sm font-semibold uppercase tracking-[0.14em] transition-all duration-300 ease-smooth;
+    @apply inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full px-7 py-3.5 text-sm font-semibold uppercase tracking-[0.14em] transition-all duration-300 ease-smooth;
   }
   .btn-primary {
     @apply btn bg-spice text-cream shadow-soft hover:bg-spice-dark hover:-translate-y-0.5;

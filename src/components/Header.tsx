@@ -107,7 +107,7 @@ export function Header() {
         <div className="flex items-center gap-2 sm:gap-3">
           {openNow !== null && (
             <span
-              className={`hidden items-center gap-1.5 rounded-full px-3 py-1.5 text-xs font-medium xl:inline-flex ${
+              className={`hidden items-center gap-1.5 whitespace-nowrap rounded-full px-3 py-1.5 text-xs font-medium xl:inline-flex ${
                 onDark ? "bg-white/12 text-cream" : "bg-ink/[0.05] text-cocoa"
               }`}
             >
@@ -117,11 +117,11 @@ export function Header() {
           )}
           <a
             href={site.phoneHref}
-            className={`hidden items-center gap-2 text-sm font-medium transition-colors xl:flex ${
+            className={`hidden items-center gap-2 whitespace-nowrap text-sm font-medium transition-colors xl:flex ${
               onDark ? "text-cream/85 hover:text-cream" : "text-ink/80 hover:text-spice"
             }`}
           >
-            <Phone className="h-4 w-4" />
+            <Phone className="h-4 w-4 shrink-0" />
             {site.phone}
           </a>
 
